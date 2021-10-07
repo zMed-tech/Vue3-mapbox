@@ -1,4 +1,4 @@
-# mapbox
+# Vue3-mapbox
 
 ## Project setup
 ```
