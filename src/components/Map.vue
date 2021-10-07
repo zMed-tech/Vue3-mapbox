@@ -11,8 +11,7 @@ export default {
   name: "Map",
   setup() {
     onMounted(() => {
-      mapboxgl.accessToken =
-        "pk.eyJ1IjoibWVkLWJhZCIsImEiOiJja3U4amY0M3ozaHM1Mm9xaHIwbThtZ3dzIn0.vD-lnhXdB5P1RXb5_GzZvw";
+      mapboxgl.accessToken = "Your Access Token";
       const map = new mapboxgl.Map({
         container: "map",
         style: "mapbox://styles/mapbox/streets-v11",
